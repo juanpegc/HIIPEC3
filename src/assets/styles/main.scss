@@ -1,0 +1,19 @@
+/**
+ * Use this file to import partials.
+ * Do not include SCSS code in this file.
+ */
+
+/**
+ * Import variables
+ */
+
+@import "variables";
+
+@tailwind base;
+@tailwind components;
+
+@import "npm:@fortawesome/fontawesome-free/css/all.css";
+
+@import "layouts/home";
+
+@tailwind utilities;
